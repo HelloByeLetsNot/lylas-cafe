@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Coffee",
+        "description": "A classic cup of freshly brewed coffee.",
+        "price": "example"
+    },
+    {
+        "name": "Bagel",
+        "description": "Toasted bagel served with cream cheese.",
+        "price": "example"
+    },
+    {
+        "name": "Avocado Toast",
+        "description": "Sourdough toast topped with mashed avocado.",
+        "price": "exmple"
+    }
+]

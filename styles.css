@@ -1,0 +1,82 @@
+/* CSS styles for basic layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffd699; /* Warm orange background color */
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ffa64d; /* Lighter shade of orange for navigation */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9933; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #e68a00; /* Darker shade on hover */
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffd699; /* Footer in the same color as header */
+    padding: 10px;
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ff9933; /* Social media icons color */
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #e68a00; /* Darker shade on hover */
+}
